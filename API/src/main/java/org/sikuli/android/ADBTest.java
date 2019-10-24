@@ -38,7 +38,7 @@ public class ADBTest {
 
         basicTest(aScr);
 
-        ADBScreen.stop();
+//        ADBScreen.stop();
 
         System.exit(0);
       }

@@ -456,7 +456,7 @@ public class Sikulix {
   public static void cleanUp(int n) {
     log(lvl, "cleanUp: %d", n);
     VNCScreen.stopAll();
-    ADBScreen.stop();
+//    ADBScreen.stop();
     ScreenHighlighter.closeAll();
     Observing.cleanUp();
     HotkeyManager.reset();
